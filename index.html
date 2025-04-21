@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>xStart | E-Commerce Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
+    <script src="main.js" async></script>
+
+</head>
+
+
+<body>
+
+    <!---------------------------------------HEADING------------------------------------------------------->
+    <div class="container">
+        <div class="navbar">
+             <div id="logo">
+                <img src="logo.png">
+            </div>
+            <nav>
+                <button id="open">
+                    <img src="cart.png" width="40px" height="40px">
+                </button>
+            </nav>
+        </div>
+    </div>
+
+    <!---------------------------------CAROUSEL------------------------------------------------------------------------>
+    <div class="carousel">
+        <div class="carousel__item">
+            <div class="row">
+                <div class="title">
+                    <h1>LEVEL UP</h1>
+                    <h3>your game!</h3>
+                    <p>Welcome to the one stop shop to step up your game. Upgrade your gears here!</p>
+                    <a href="" class="xplr">Buy Now &#8594;</a>
+                </div>
+                <div class="titlehd">
+                    <img src="hd1.png">
+                </div>
+            </div>
+        </div>
+        <div class="carousel__item">
+            <img id="caro2" src="b2.webp">
+        </div>
+        <div class="carousel__item">
+            <img id="caro3" src="b3.webp">
+        </div>
+    </div>
+
+    <!---------------------------------------------------------PRODUCTS-------------------------------------------------------------------------->
+
+    <div class="Products">
+        <div id="app"></div>
+    </div>
+
+
+    <!---------------------------------------------------------CART MODAL-------------------------------------------------------------------------->
+    
+    <div class="modal-container" id="modal_container">
+        <div class="modal">
+            <button id="close">X</button>
+            <h2 class="section-header">CART</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+        </div>
+      </div>
+
+      
+</body>
+</html>
